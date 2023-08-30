@@ -1,0 +1,25 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';//自訂變數
+
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import '../../node_modules/bootstrap/scss/utilities';//引入bootstrap 原始的utilities
+@import './utils/utilitiesbs';//自訂utilities，打開文字斷點
+@import "../../node_modules/bootstrap";
+@import '../../node_modules/material-symbols/outlined.css';//引入material-symbols
+@import '../../node_modules/material-icons/iconfont/material-icons.css';//引入material-icons
+@import '../../node_modules/swiper/swiper-bundle.css';//引入swiper
+
+@import './breakpoint';//斷點設定
+@import './base';//全站設定(tag 標籤)
+@import './utilities';//工具類(margin padding 元件顏色等)
+@import './components/card';//自訂元件
+@import './components/arrow';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+

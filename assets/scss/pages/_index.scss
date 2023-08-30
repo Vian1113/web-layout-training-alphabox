@@ -1,0 +1,183 @@
+.alphaboxCircle {
+  width: 196px;
+  height: 196px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.banner {
+  background-image: url(../images/line-bg.png), linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+    background-repeat: no-repeat;
+  @include midlarge {
+    height: calc(1137px - 176px)
+  }
+
+}
+
+
+.leftCard {
+  background-image: url(../images/diane_square1.png);
+
+  @include midlarge {
+    background-image: url(../images/diane.png);
+  }
+
+}
+
+.midCard-left {
+  background-image: url(../images/felix_square1.png);
+
+  @include midlarge {
+    background-image: url(../images/felix.png);
+  }
+}
+
+.midCard-right {
+  background-image: url(../images/karina_square1.png);
+
+  @include midlarge {
+    background-image: url(../images/karina.png);
+  }
+}
+
+.rightCard {
+  background-image: url(../images/vito_square1.png);
+
+  @include midlarge {
+    background-image: url(../images/vito.png);
+  }
+}
+
+.decoLine {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90deg, #7000FF 0%, #11002D 100%);
+}
+
+
+.intro {
+  background-image: url(../images/intro_banner_1.png), radial-gradient(50% 50.00% at 50% 50.00%, #300871 0%, #000 100%);
+  background-repeat: no-repeat;
+
+  @include midlarge {
+    height: 1080px;
+  }
+
+  .nextArrow{
+
+    
+    @include xlarge{
+      
+      right:-80px;
+      zoom:0.5;
+    }
+    @include xxlarge{
+      right:-232px;
+      zoom:1
+    }
+    
+  }
+
+  .prevArrow{
+    @include xlarge{
+      
+      left:-80px;
+      zoom:0.5;
+    }
+    @include xxlarge{
+      left:-232px;
+      zoom:1;
+    }
+  }
+
+  .textArea{
+    left:16px;
+    bottom:16px ;
+    @include large{
+      left:0px;
+      bottom:0px;
+      right:80px;
+      top:50%;
+      transform:translateY(-50%);
+    }
+  }
+}
+
+.introBanner{
+  //background-image:url(../images/intro_banner_2.png);
+  height:351px;
+  //background-position: center;
+  //background-size: cover;
+  @include midlarge{
+    height: 560px;
+  }
+}
+
+.news{
+  .newsBox{
+    border-right:0!important;
+    @include large{
+      border-right:1px solid $white !important;
+    }
+  }
+
+  .more{
+    margin-top: 40px;
+    margin-bottom: 0;
+    @include large{
+      margin-top: 76px;
+      margin-bottom: 96px;
+    }
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+}
+
+.comment{
+  background-image: url(../images/comment_bg_sm.png), radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  @include large{
+    background-image: url(../images/comment_bg_lg.png), radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+  }
+
+  
+  
+  
+}
+
+.commentSwiper{
+
+  .userslide{
+    height: 416px
+  }
+
+  .swiper-scrollbar {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .swiper-scrollbar-drag {
+    background: #ffffff !important;
+  }
+
+  .commentScroll{
+    margin-bottom: 124px;
+  }
+
+
+}

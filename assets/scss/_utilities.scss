@@ -1,0 +1,133 @@
+.lh-sm{
+    line-height: 1.2;
+}
+.font-notoSans {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.font-shrikhand{
+    font-family: 'Shrikhand', cursive;
+}
+
+.opacity-4{
+    opacity: 0.04;
+}
+
+.fs-sm{
+    font-size: 8px;
+}
+
+.fs-80{
+    font-size: 80px;
+}
+
+.fw-lightSm{
+    font-weight: 300;
+}
+.pt-top {
+
+padding-top: 72px;
+    
+}
+
+.top-5{
+    top:16px;
+}
+
+.top-17{
+    top:56px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.letter-sp-xs{
+    letter-spacing: 1.6px;
+}
+
+
+.letter-sp-md{
+    letter-spacing: 1.6px;
+    @include xxsmall{
+        letter-spacing: 16px;
+    }
+}
+
+.letter-sp{
+    letter-spacing: 1.6px;
+    @include xxsmall{
+        letter-spacing: 20px;
+    }
+}
+
+.letter-sp-lg{
+    letter-spacing: 1.6px;
+    @include xxsmall{
+        letter-spacing: 20px;
+    }
+    @include xlarge{
+        letter-spacing: 80px;
+    }
+}
+
+.letter-title{
+    letter-spacing: 1.6px;
+    @include xxsmall{
+        letter-spacing: 24px;
+    }
+    @include xlarge{
+        letter-spacing: 48px;
+    }
+}
+
+.letter-subtitle{
+    letter-spacing: 1.6px;
+    @include xxsmall{
+        letter-spacing: 40px;
+    }
+    @include xlarge{
+        letter-spacing: 48px;
+    }
+}
+
+.letter-third-title{
+    letter-spacing: 1.6px;
+    @include xxsmall{
+        letter-spacing: 24px;
+    }
+    @include xlarge{
+        letter-spacing: 32px;
+    }
+}
+
+.radius-sm{
+    border-radius: 4px;
+}
+
+.radius-lg{
+    border-radius: 40px;;
+}
+
+.bg-linear-gradient{
+    background:linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+
+}
+
+
+.bg-radio-gradient{
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #300871 0%, #000 100%);
+}
+
+.bg-radio-gradient-reverse{
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+}
+
+
+
+.z-index-5{
+    z-index: 5;
+}
+
+
+

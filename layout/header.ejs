@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top py-xl-5 py-5 bg-info">
+    <div class="container justify-content-between ">
+
+        <h1 class="mb-0">
+            <a class="navbar-brand fw-light fs-lg-7 fs-8 me-0 mb-0 p-0" href="index.html">ALPHABOX+</a>
+        </h1>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHamMenu"
+            aria-controls="navbarHamMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end pt-8 pb-10 px-4 p-xl-0" id="navbarHamMenu">
+            <div class="navbar-nav">
+                <ul
+                    class="navbarMain mb-7 mb-xl-0 d-flex flex-xl-row flex-column align-items-center justify-content-center gap-xl-12 gap-7">
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">產品</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">關於我們</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">最新消息</a></li>
+                    <li class="item"><a class="nav-link text-white font-notoSans p-0 text-nowrap" href="#"
+                            style="height: 31px;">FAQ</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">聯絡我們</a></li>
+                </ul>
+
+                <ul
+                    class="navbarSub mb-0 d-flex flex-xl-row flex-column align-items-center justify-content-center gap-xl-8 gap-7 ">
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">註冊</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">登入</a></li>
+                    <li class="item ms-lg-2">
+                        <a class="nav-link bg-white d-flex aling-items-center justify-content-center px-5 py-2 radius-sm"
+                            href="#">
+                            <img src="../assets/images/point_scan.svg" alt="subscribe"
+                                style="width: 20px;height: 20px;">
+                            <span class="text-dark">訂閱</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    navbarColor();
+
+    function navbarColor() {
+        $(".navbar-toggler").on("click", function () {
+            
+            if ($(".navbar-toggler").hasClass("collapsed")) {
+                $(".navbar").css("background", "#7000FF");
+            } else {
+                $(".navbar").css("background", "linear-gradient(180deg, #7000FF 0%, #11002D 100%)");  
+            }
+        });
+    }
+
+
+
+</script>

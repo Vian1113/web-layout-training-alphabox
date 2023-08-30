@@ -1,0 +1,15 @@
+.navbarMain{
+  @include midlarge{
+    margin-right: 144px;
+  }
+
+  @include xlarge{
+    margin-right: 229px;
+  }
+}
+
+.navbar-nav{
+  .nav-link:hover{
+    opacity: 0.7;
+  }
+}
