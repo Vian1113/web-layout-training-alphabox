@@ -157,9 +157,6 @@
     background-image: url(../images/comment_bg_lg.png), radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
   }
 
-  
-  
-  
 }
 
 .commentSwiper{
@@ -168,16 +165,16 @@
     height: 416px
   }
 
+}
+
+.commentScroll{
+  margin-bottom: 124px;
   .swiper-scrollbar {
+    //height: 4px;
     background: rgba(255, 255, 255, 0.2);
   }
   .swiper-scrollbar-drag {
+    //height: 4px;
     background: #ffffff !important;
   }
-
-  .commentScroll{
-    margin-bottom: 124px;
-  }
-
-
 }
