@@ -9,10 +9,6 @@ const swiper = new Swiper(".commentSwiper",{
   mousewheel: true,
   direction: 'vertical',
   
-  // scrollbar: {
-  //   el: ".swiper-scrollbar",
-  //   draggable: true
-  // },
   slidesPerView: "auto",
   navigation: {
     nextEl: ".swiper-button-next",
