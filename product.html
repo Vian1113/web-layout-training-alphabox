@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 網頁上頭LOGO -->
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKpSURBVHgB7ZtrkdswFEZPiyAQxKBlEDNoGUQMugxsBrsMDKEQDKEQXAYpg1aaxtM0k4fkq5ez98x8f3Y3inTG98aysqAoiqIoiqIoivKemV1+B2amET6iiFCBQlSgEBUoRAUKUYFCVKAQFShEBQpJIdC6jC6G7WBcJpeOBjjfgr2yXmSJrdzOZaChLeEL1xd3IJ7cAv1cj1fG6qmE4f6i/e86wsklsONvud4ay0vdUYGRsMWG9sfUAo3L98DxXimMIXyxS4YHY6YSuPS5Y+T8Ogryg3iBj/pjCoE2cpzzTBTCsm6ClwLMxbgSgR33+1xovlKAmIU+ysg/kWsE7gjvxaHjZv1AGUg32SXH07gzcQsdiO9zIenJiCXtFdhaZpc9BbA8l0h/JX+jMIa0/adW/D1glRvpBUP4DWtLmVw+0xCWbZS1n+OehunJ8+kozfE0t6rlGoqhrf7o57IJcZcY6pb1ROPlGoqlrEhfrgeeDF9CPfnF9RQs19KHSh9cfpGPXYH3qIKlbAn79zrwBHSkecy0Nv65pWGD+FJ6o564y4xsSOSt06/amU9za5aO7WzlvtAQhrp9brNlvfb0q7UMVNjmWZ7rgepModuejm2Wa4xIQwSxO5E9eQ6gB5efEX/vdxpvpMeQ+Ur0vSJlz5uQHWv6144J5xN9Ba7hhTQT3V+MO0e+/hxLmp58oBAT6yZ47/RLInDhhfUib42ZhY74CT46/Uoh0GNYV9afKEzoSdxE2FPhVAIXDOGVMlIBw/0PFL/IEHELqQUu2ICxDZXoud7n/M9j7+5zCTyfa1Nf8fV4SecLH2n7S+aG//vj2nGS4r9TNyE//SohcMHwRE+tF0oKTIb+p5IQFShEBQpRgUJUoBAVKEQFClGBQlSgoiiKoiiKoijK5vgDADqjnsS7C50AAAAASUVORK5CYII=" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Saira+Extra+Condensed:wght@300&family=Shrikhand&display=swap"
+        rel="stylesheet">
+
+    <title>ALPHABOX+</title>
+  <script type="module" crossorigin src="/web-layout-training-alphabox/assets/main-960d7bc7.js"></script>
+  <link rel="stylesheet" href="/web-layout-training-alphabox/assets/main-08314a8e.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top py-xl-5 py-5 bg-info">
+    <div class="container justify-content-between ">
+
+        <h1 class="mb-0">
+            <a class="navbar-brand fw-light fs-lg-7 fs-8 me-0 mb-0 p-0" href="index.html">ALPHABOX+</a>
+        </h1>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHamMenu"
+            aria-controls="navbarHamMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end pt-8 pb-10 px-4 p-xl-0" id="navbarHamMenu">
+            <div class="navbar-nav">
+                <ul
+                    class="navbarMain mb-7 mb-xl-0 d-flex flex-xl-row flex-column align-items-center justify-content-center gap-xl-12 gap-7">
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="product.html">產品</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">關於我們</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">最新消息</a></li>
+                    <li class="item"><a class="nav-link text-white font-notoSans p-0 text-nowrap" href="#"
+                            style="height: 31px;">FAQ</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">聯絡我們</a></li>
+                </ul>
+
+                <ul
+                    class="navbarSub mb-0 d-flex flex-xl-row flex-column align-items-center justify-content-center gap-xl-8 gap-7 ">
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">註冊</a></li>
+                    <li class="item"><a class="nav-link text-white p-0 text-nowrap" href="#">登入</a></li>
+                    <li class="item ms-lg-2">
+                        <a class="nav-link bg-white d-flex aling-items-center justify-content-center px-5 py-2 radius-sm"
+                            href="#">
+                            <img src="/web-layout-training-alphabox/assets/point_scan-cf1b56b2.svg" alt="subscribe"
+                                style="width: 20px;height: 20px;">
+                            <span class="text-dark">訂閱</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    navbarColor();
+
+    function navbarColor() {
+        $(".navbar-toggler").on("click", function () {
+            
+            if ($(".navbar-toggler").hasClass("collapsed")) {
+                $(".navbar").css("background", "#7000FF");
+            } else {
+                $(".navbar").css("background", "linear-gradient(180deg, #7000FF 0%, #11002D 100%)");  
+            }
+        });
+    }
+
+
+
+</script>        <section class="bg-dark">
+            <ul class="nav nav-pills mb-0 pt-top-lg gap-lg-8 gap-2 mb-5 justify-content-center" id="pills-tab"
+                role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active px-lg-21 px-5" id="pills-diane-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-diane" type="button" role="tab" aria-controls="pills-diane"
+                        aria-selected="true">Diane</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link px-lg-21 px-5" id="pills-felix-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-felix" type="button" role="tab" aria-controls="pills-felix"
+                        aria-selected="false">Felix</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link px-lg-21 px-5" id="pills-karina-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-karina" type="button" role="tab" aria-controls="pills-karina"
+                        aria-selected="false">Karina</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link px-lg-21 px-5" id="pills-vito-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-vito" type="button" role="tab" aria-controls="pills-vito"
+                        aria-selected="false">Vito</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active position-relative pb-8 pb-lg-0" id="pills-diane" role="tabpanel"
+                    aria-labelledby="pills-diane-tab" tabindex="0">
+
+                    <div>
+                        <div class="d-flex flex-lg-row flex-column flex-wrap">
+                            <div class="swiper charactSwiper col-lg-6 m-0">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide dianeCard">
+                                        <img src="/web-layout-training-alphabox/assets/diane_square1-9f0571f9.png" alt="diane" class="h-100 w-100">
+                                    </div>
+                                    <div class="swiper-slide dianeCard-2">
+                                        <img src="/web-layout-training-alphabox/assets/diane_square2-7afb91b6.png" alt="diane" class="h-100 w-100">
+                                    </div>
+        
+                                </div>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-next">
+                                    arrow_circle_right
+                                </span>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-prev">
+                                    arrow_circle_left
+                                </span>
+        
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column justify-content-lg-center">
+                                <div class="textArea ms-lg-12 ms-4 mt-5 mt-lg-0">
+                                    <h3 class="text-white fs-lg-4 fs-6 mb-lg-8 mb-0">Diane</h3>
+                                    <p class="text-white fw-semibold ">知識型</p>
+                                    <p class="text-white mb-lg-5 mb-2">學術領導/知識分享/智能問答</p>
+                                    <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="306" height="14" class="d-lg-block d-none" viewBox="0 0 306 14"
+                                        fill="none">
+                                        <path
+                                            d="M283.55 13.8938L290.486 8.24316H0.0500488V6.3596H290.486L283.55 0.708916L305.825 7.30138L283.55 13.8938Z"
+                                            fill="white" />
+                                    </svg></a>
+                                    
+                                    <a href="#" class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24" class="d-lg-none d-block  arrow" fill="none">
+                                            <mask id="mask0_447_2493" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="90" height="24">
+                                              <rect width="90" height="24" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_447_2493)">
+                                              <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white"/>
+                                            </g>
+                                          </svg>
+                                    </a>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <a href="#" class="more moreScroll p-0 mx-auto z-index-5 mt-0 mb-0">
+                        <img src="data:image/png;base64,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" alt="alphaboxCircle"
+                            class="alphaboxCircle moreScrollCircle" >
+                        <span
+                            class="material-symbols-rounded position-absolute top-50 start-50 translate-middle text-white">
+                            south
+                        </span>
+                    </a>
+                </div>
+
+                <div class="tab-pane fade position-relative pb-8 pb-lg-0" id="pills-felix" role="tabpanel" aria-labelledby="pills-felix-tab"
+                    tabindex="0">
+                    <div>
+                        <div class="d-flex flex-lg-row flex-column flex-wrap">
+                            <div class="swiper charactSwiper col-lg-6 m-0">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide dianeCard">
+                                        <img src="/web-layout-training-alphabox/assets/felix_square1-48e53108.png" alt="diane" class="h-100 w-100">
+                                    </div>
+                                    <div class="swiper-slide dianeCard-2">
+                                        <img src="/web-layout-training-alphabox/assets/felix_square2-14b06083.png" alt="diane" class="h-100 w-100">
+                                    </div>
+        
+                                </div>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-next">
+                                    arrow_circle_right
+                                </span>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-prev">
+                                    arrow_circle_left
+                                </span>
+        
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column justify-content-lg-center">
+                                <div class="textArea ms-lg-12 ms-4 mt-5 mt-lg-0">
+                                    <h3 class="text-white fs-lg-4 fs-6 mb-lg-8 mb-0">Felix</h3>
+                                    <p class="text-white fw-semibold ">娛樂型</p>
+                                    <p class="text-white mb-lg-5 mb-2">音樂播放/語音互動/遊戲陪伴</p>
+                                    <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="306" height="14" class="d-lg-block d-none" viewBox="0 0 306 14"
+                                        fill="none">
+                                        <path
+                                            d="M283.55 13.8938L290.486 8.24316H0.0500488V6.3596H290.486L283.55 0.708916L305.825 7.30138L283.55 13.8938Z"
+                                            fill="white" />
+                                    </svg></a>
+                                    
+                                    <a href="#" class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24" class="d-lg-none d-block  arrow" fill="none">
+                                            <mask id="mask0_447_2493" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="90" height="24">
+                                              <rect width="90" height="24" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_447_2493)">
+                                              <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white"/>
+                                            </g>
+                                          </svg>
+                                    </a>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <a href="#" class="more moreScroll p-0 mx-auto z-index-5 mt-0 mb-0">
+                        <img src="data:image/png;base64,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" alt="alphaboxCircle"
+                            class="alphaboxCircle moreScrollCircle" >
+                        <span
+                            class="material-symbols-rounded position-absolute top-50 start-50 translate-middle text-white">
+                            south
+                        </span>
+                    </a>
+
+                </div>
+                <div class="tab-pane fade position-relative pb-8 pb-lg-0" id="pills-karina" role="tabpanel" aria-labelledby="pills-karina-tab"
+                    tabindex="0">
+                    <div>
+                        <div class="d-flex flex-lg-row flex-column flex-wrap">
+                            <div class="swiper charactSwiper col-lg-6 m-0">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide dianeCard">
+                                        <img src="/web-layout-training-alphabox/assets/karina_square1-3af8d52b.png" alt="diane" class="h-100 w-100">
+                                    </div>
+                                    <div class="swiper-slide dianeCard-2">
+                                        <img src="/web-layout-training-alphabox/assets/karina_square2-4f662d52.png" alt="diane" class="h-100 w-100">
+                                    </div>
+        
+                                </div>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-next">
+                                    arrow_circle_right
+                                </span>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-prev">
+                                    arrow_circle_left
+                                </span>
+        
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column justify-content-lg-center">
+                                <div class="textArea ms-lg-12 ms-4 mt-5 mt-lg-0">
+                                    <h3 class="text-white fs-lg-4 fs-6 mb-lg-8 mb-0">Karina</h3>
+                                    <p class="text-white fw-semibold ">生活型</p>
+                                    <p class="text-white mb-lg-5 mb-2">健康提醒/日程安排/智能家居</p>
+                                    <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="306" height="14" class="d-lg-block d-none" viewBox="0 0 306 14"
+                                        fill="none">
+                                        <path
+                                            d="M283.55 13.8938L290.486 8.24316H0.0500488V6.3596H290.486L283.55 0.708916L305.825 7.30138L283.55 13.8938Z"
+                                            fill="white" />
+                                    </svg></a>
+                                    
+                                    <a href="#" class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24" class="d-lg-none d-block  arrow" fill="none">
+                                            <mask id="mask0_447_2493" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="90" height="24">
+                                              <rect width="90" height="24" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_447_2493)">
+                                              <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white"/>
+                                            </g>
+                                          </svg>
+                                    </a>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <a href="#" class="more moreScroll p-0 mx-auto z-index-5 mt-0 mb-0">
+                        <img src="data:image/png;base64,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" alt="alphaboxCircle"
+                            class="alphaboxCircle moreScrollCircle" >
+                        <span
+                            class="material-symbols-rounded position-absolute top-50 start-50 translate-middle text-white">
+                            south
+                        </span>
+                    </a>
+                </div>
+                <div class="tab-pane fade position-relative pb-8 pb-lg-0" id="pills-vito" role="tabpanel" aria-labelledby="pills-vito-tab"
+                    tabindex="0">
+                    <div>
+                        <div class="d-flex flex-lg-row flex-column flex-wrap">
+                            <div class="swiper charactSwiper col-lg-6 m-0">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide dianeCard">
+                                        <img src="/web-layout-training-alphabox/assets/vito_square1-4497c642.png" alt="diane" class="h-100 w-100">
+                                    </div>
+                                    <div class="swiper-slide dianeCard-2">
+                                        <img src="/web-layout-training-alphabox/assets/vito_square2-d4cc2c54.png" alt="diane" class="h-100 w-100">
+                                    </div>
+        
+                                </div>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-next">
+                                    arrow_circle_right
+                                </span>
+        
+                                <span class="material-symbols-rounded text-white fw-lightSm fs-lg-4 fs-5 swiper-button-prev">
+                                    arrow_circle_left
+                                </span>
+        
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column justify-content-lg-center">
+                                <div class="textArea ms-lg-12 ms-4 mt-5 mt-lg-0">
+                                    <h3 class="text-white fs-lg-4 fs-6 mb-lg-8 mb-0">Vito</h3>
+                                    <p class="text-white fw-semibold ">情感型</p>
+                                    <p class="text-white mb-lg-5 mb-2">情感識別/心情分析/心靈支持</p>
+                                    <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="306" height="14" class="d-lg-block d-none" viewBox="0 0 306 14"
+                                        fill="none">
+                                        <path
+                                            d="M283.55 13.8938L290.486 8.24316H0.0500488V6.3596H290.486L283.55 0.708916L305.825 7.30138L283.55 13.8938Z"
+                                            fill="white" />
+                                    </svg></a>
+                                    
+                                    <a href="#" class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="24" viewBox="0 0 90 24" class="d-lg-none d-block  arrow" fill="none">
+                                            <mask id="mask0_447_2493" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="90" height="24">
+                                              <rect width="90" height="24" fill="#D9D9D9"/>
+                                            </mask>
+                                            <g mask="url(#mask0_447_2493)">
+                                              <path d="M77 19L80.425 13H2V11H80.425L77 5L88 12L77 19Z" fill="white"/>
+                                            </g>
+                                          </svg>
+                                    </a>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <a href="#" class="more moreScroll p-0 mx-auto z-index-5 mt-0 mb-0">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAjPSURBVHgB7Z2Ndds2EMdPfRnAG4SdoO4EZidINpA7gd0J5A2UTqB2AqcTyJ3AyQRUJpA7wZUnHIITwy+RFD//v/fwJBE0LJHHw+FwOBABYuaIABBSYbhnxwMBkArCa1qStOwJLJtUCGLVDl5L3FBLpPtJy5pAf+hFl6c6phaIVkjLTgQhLccubqS2x/r9IBh9oTdwSw0x2uFOP5+Eg1qggipsxSZRoZDykUA79KndF2kBfRITaoj+/d58lht4pBYY7RCZYxs99kigHWVawPT77+lCzJP8rDdM2nrUYzE1wHRju5y6fRvh7ZOfaNx8TsvHkjoqqS9jk5ZDWsSIjPXzRus+UDPitETSboFx+kagHXlaQPv+J33qmC8cLhrtsM6p2zZ9klU77I3dsNPv+qno/4ELUTuC9eJutQthvfAb02fXHi6W2R4cDM2LuiEjuJH5nBjBgDB0hdUE7Ay/G1N3q3W11HyZdtB6P/y8yGvJOY4tbUucXjAmu0Q1wbFIC2hdq+Fipj0Rus0F53vtcJdTd/ruBLrDqPG4oH475EVnN1IRHjkzSabdBQSia7h8+FkqMH1gbIajCoF89sZkbW0DalKmBbSvvqMRoIKwV0E4diEM+vvEVrqlqaM/5kH70sbu2zFogb5RA9gLlyfhqcZuiADoU+KL8EQNGJMW6APVCP66ycP0QX4/h2H2tIaxtv9kHR1w8OnHBAoxwpDkaQMOo66IpoBa3UfOH4a1mqFcAhwcWlHJOftrXcdrzGX8SW6OIM9m+EKgEDFKyc2H3K9Wq0PJqS/UbA5nGPK6Bw6zib8QyEW162uN8xrPuQyGqrVTX2eEAWPyElQgKr2u2qU805TgEB/grWVENVfANVzd7GZ6mac46uLgP+hsrmHOcJhceyqo98IwXcPc2BOIK6wBh8myJw7T6TEHJ9X0Hy5rTxCohJ1TL1EBOJrXq3e7K+oBFQSJF3hLh1O/EqgFuzgPGcJL+N2/6bWbTxieeuAW434GAAAAJgjPIZYCdIMOYxHGB8pXk4EFwroGBf6fhVBmG3DJ8oA2/zBSKYsIjA7jzn7V91v1cnpP58Wzy6uKfxinL77/eUo9ZX9XnZ+e80KgF9iFJ0p8iWiKSF9v9FV4IReUdEjLV3nf2ttptASXaQvOrG8Ew8DnSUs2rEE3HOgmJoXPF7CuM3U3ehzxkgNTNqrofPqgSFuwi7JOuIOkXaA57KbM+x9VZLSFD9rAkvcB4RCMNMx9yGoLAoNhuuzh74Nqi4jAoDDcAwAAAAAAAAAAAAAAgFGj0wy1lgFWBchEFAIuJP9zpO8JS/Kmgw90Su/Zz1XnvtM/iMhtCxDReeSNnc4+kFtjKBE4LwSmxIHO72Uh7/RVBOAThZAreZWbL2FXMp0aQyNME41RidJywyHFk3x+KcxjpdOnWxN6ZTPO7xEJNT04hDRaEg77esR1G/F/dKvHhKa7zICB0If8PYc8ocJF+4D4hmzgi8/0HhGYNOwSjlwuEKYBry2Q+WUG6L1sF2DL5wm4nwhMFna5srsJguaQOGxayTLB9fC2BQEAAJgJjPygwGLcBxEBwG49Z4KRIjiD3Y4EfqceLLsE372V3q+0QzeyYDjkjbg13cgR3chCYV0dnjn2w2TmNfbcAuNE5jG+cNgY9p5cOiKJf4nIxb30kw0fDIPaCPLkizCIPyIy1T76zZd/auefYpfVDNlhJgS7HZU9R/VFSPDTh1bT4Nr4kZEveVJot9D+5hc0LkYHoqYWwLua50kfIxL3jVyfJDvjfCYwOwqNSnaBtRGdh+SL0XEglwDzdwKzo0wgZKXPm5ZTplQIATihDozKLYjB9KnrmBIbAsNO4FDvFmbIAAAAAABmCIdN12DvgZNAPJsJrR0iohYMmx2NTODLKbAWgrFAOLM9ggrGRoUC3ciS4JKddPg8vUPSm7ZAsOZwaCT1Q8U5thu57hpdDcYQYgKjRruRbnbmK/knInnPBABjv07gMY6Q66og0BuVYfj65MuQRcLnDqRRUxKyrcZJXCdDKpgGtdZliBVLIcutRwRDYiRetHyjEGF1KEyKCeYFh5U/e29M6vtXDdf3oBtZChwWjt7l1HmBwTqOpcBj2UUWDA+7xBMYZvaMauVxxbVy2GMa9kHP6HXf09gY5ZdaAOwWXAvYmQA4zHT2IwEgcNjXBPknl46ZKmCewy4FapQ+qDNLynp0lvNIUWEQIdgZ4z6ZrFCoUeQ9mXsViGn/qB7hTIiBEZDXyT1UZor8NXvztU/EJi0lsGaQy7l2PjBpOk5CDm7uQklWjYHhbAFGIG4zxyOjZaehJThMgkUl5/gf3H0+pBmgNoPPQus3VYv1uk6nyzDaYV1xnld97faEmjGm2/VCIHTupLp24tJIX79WnOdV4X80Y/RJj6kBq9Xqr/RFNtOV3F6Sr0MCk/6gKWGe/PcV5536QZo5xoBe7lBbL8CmpP5TnW5lDhhbKaalwmG6/DFz/MYIw2xmT9n5W15L6pPFj6g4TMrs2Hkqnzi4YBsLgz5xGy0xjYAqLaDfddndhsAhDpPNEKrxqEKFylvde/N+zQM7ufT37QrqbvS7PhDoBg7D2exq53ujeeIL2+vsic3TAhzmcbzwwhHXFRyCRW5z6nwW+Khmc5WeUr5wdRqH0dVau5CdCoiULYfV2JjY6wKjduOcuoQv9O2bG17kWm/S5p4D8v6Og5fRex4RitgVehPFY7c2x7xBd5FtUnaDWrRZqqlUSJAduC3a3+/5fIe5RNXzaUqdGsDBaSSvG1Ma3TiuMB4ZPolu0P438U8e/2hMNlLD5gYlKgQnQdBjjZxmXGKbqMDIb8GCpjZwQS4K7iAtQbbb0DYb+wzMd4oJXAcumE7nDjyA2kUcM202Dj7hYJvA53At+DwoZK2f4zaqPdM2a3u3bTWOb5MmxGS3aWS376So94hc3grqIk+Fahm/HYRsGvMbgenAbny/447iCtkNF79rIALLxvT7s4/PyKPurnyLQVMl3dNC+R8LKS2RT6IblgAAAABJRU5ErkJggg==" alt="alphaboxCircle"
+                            class="alphaboxCircle moreScrollCircle" >
+                        <span
+                            class="material-symbols-rounded position-absolute top-50 start-50 translate-middle text-white">
+                            south
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <footer class="footer">
+    <div class="container ">
+        <div class="d-flex flex-lg-row flex-column align-items-lg-center justify-content-lg-between align-items-start  py-12 px-9 px-lg-0 py-lg-15 gap-2 gap-lg-0">
+            <div class="logo">
+                <p class="mb-0 fs-sm-7 fs-9 fw-light"><a href="index.html" class="text-dark">ALPHABOX+</a></p>
+                <span class="fs-10 fw-semibold font-notoSans">Copyright © 2023 Hexschool.</span>
+            </div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKpSURBVHgB7ZtrkdswFEZPiyAQxKBlEDNoGUQMugxsBrsMDKEQDKEQXAYpg1aaxtM0k4fkq5ez98x8f3Y3inTG98aysqAoiqIoiqIoivKemV1+B2amET6iiFCBQlSgEBUoRAUKUYFCVKAQFShEBQpJIdC6jC6G7WBcJpeOBjjfgr2yXmSJrdzOZaChLeEL1xd3IJ7cAv1cj1fG6qmE4f6i/e86wsklsONvud4ay0vdUYGRsMWG9sfUAo3L98DxXimMIXyxS4YHY6YSuPS5Y+T8Ogryg3iBj/pjCoE2cpzzTBTCsm6ClwLMxbgSgR33+1xovlKAmIU+ysg/kWsE7gjvxaHjZv1AGUg32SXH07gzcQsdiO9zIenJiCXtFdhaZpc9BbA8l0h/JX+jMIa0/adW/D1glRvpBUP4DWtLmVw+0xCWbZS1n+OehunJ8+kozfE0t6rlGoqhrf7o57IJcZcY6pb1ROPlGoqlrEhfrgeeDF9CPfnF9RQs19KHSh9cfpGPXYH3qIKlbAn79zrwBHSkecy0Nv65pWGD+FJ6o564y4xsSOSt06/amU9za5aO7WzlvtAQhrp9brNlvfb0q7UMVNjmWZ7rgepModuejm2Wa4xIQwSxO5E9eQ6gB5efEX/vdxpvpMeQ+Ur0vSJlz5uQHWv6144J5xN9Ba7hhTQT3V+MO0e+/hxLmp58oBAT6yZ47/RLInDhhfUib42ZhY74CT46/Uoh0GNYV9afKEzoSdxE2FPhVAIXDOGVMlIBw/0PFL/IEHELqQUu2ICxDZXoud7n/M9j7+5zCTyfa1Nf8fV4SecLH2n7S+aG//vj2nGS4r9TNyE//SohcMHwRE+tF0oKTIb+p5IQFShEBQpRgUJUoBAVKEQFClGBQlSgoiiKoiiKoijK5vgDADqjnsS7C50AAAAASUVORK5CYII=" alt="deco">
+            <ul class="submenu d-flex flex-lg-row flex-column gap-lg-8 gap-2 mb-0">
+                <li class="item"><a href="#" class="fw-semibold fs-10 text-dark itemLink">關於我們</a></li>
+                <li class="item"><a href="#" class="fw-semibold fs-10 text-dark itemLink">產品資訊</a></li>
+                <li class="item"><a href="#" class="fw-semibold fs-10 text-dark itemLink">常見問題</a></li>
+                <li class="item"><a href="#" class="fw-semibold fs-10 text-dark itemLink">隱私政策</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</footer>
+            
+
+
+
+</body>
+
+</html>
