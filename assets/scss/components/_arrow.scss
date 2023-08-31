@@ -5,3 +5,23 @@
     } 
 }
 
+.arrow-lg{
+    width: 90px;
+    height: 24px;
+    @include xxsmall{
+        width: 196px;
+        height: 24px;
+    }
+}
+
+.arrow-md{
+    display: none;
+    @include xxsmall{
+        display: block;
+        width: 100px;
+    }
+    @include xsmall{
+        width: 155px;
+    }
+}
+

@@ -9,6 +9,10 @@
     font-family: 'Shrikhand', cursive;
 }
 
+.font-saira {
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+
 .opacity-4{
     opacity: 0.04;
 }
@@ -28,6 +32,10 @@
 
 padding-top: 72px;
     
+}
+
+.pt-top-lg{
+    padding-top: 88px;
 }
 
 .top-5{
@@ -98,6 +106,13 @@ padding-top: 72px;
     }
     @include xlarge{
         letter-spacing: 32px;
+    }
+}
+
+.letter-card-title{
+    letter-spacing: 320px;
+    @include xlarge{
+        letter-spacing: 1000px;
     }
 }
 

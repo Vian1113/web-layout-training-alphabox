@@ -1,13 +1,3 @@
-// .wrap{
-//     max-width:1760px;
-//     margin: 0 auto;
-//     padding: 0 12px;
-
-//     @include large{
-
-//     }
-// }
-
 .card-wrap{
     @include midlarge{
         width: 25%;
@@ -69,5 +59,27 @@
     height: 351px;
     @include large{
         height: 580px;
+    }
+}
+
+.charactCard{
+    background-color: #000;
+    transition: 0.5s;
+    &:hover {
+      background-color: #00000080;
+    }
+}
+
+.charactCardH{
+    min-height: 406px;
+    @include medium{
+        min-height: 876px;
+    }
+}
+
+.charactCardW{
+    width: 50%;
+    @include medium{
+        min-height: 25%;
     }
 }

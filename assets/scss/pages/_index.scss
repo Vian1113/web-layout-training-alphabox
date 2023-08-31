@@ -118,10 +118,7 @@
 }
 
 .introBanner{
-  //background-image:url(../images/intro_banner_2.png);
   height:351px;
-  //background-position: center;
-  //background-size: cover;
   @include midlarge{
     height: 560px;
   }
@@ -135,18 +132,6 @@
     }
   }
 
-  .more{
-    margin-top: 40px;
-    margin-bottom: 0;
-    @include large{
-      margin-top: 76px;
-      margin-bottom: 96px;
-    }
-
-    &:hover{
-      opacity: 0.7;
-    }
-  }
 }
 
 .comment{
@@ -162,7 +147,10 @@
 .commentSwiper{
 
   .userslide{
-    height: 416px
+    height: 351px;
+    @include large{
+      height: 416px;
+    }
   }
 
 }
@@ -176,5 +164,23 @@
   .swiper-scrollbar-drag {
     //height: 4px;
     background: #ffffff !important;
+  }
+}
+
+.contact{
+  .decoCircle{
+    font-size: 8px;
+    @include large{
+      font-size: 12px;
+    }
+
+  }
+  .decoLine-sm{
+    width: 124px;
+    height: 8px;
+    border-radius: 8px;
+    @include large{
+      height: 12px;
+    }
   }
 }
