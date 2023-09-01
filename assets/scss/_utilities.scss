@@ -51,26 +51,29 @@ padding-top: 72px;
 }
 
 .letter-sp-xs{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
+    @include xxsmall{
+        letter-spacing: 1.6px;
+    }
 }
 
 
 .letter-sp-md{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
     @include xxsmall{
         letter-spacing: 16px;
     }
 }
 
 .letter-sp{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
     @include xxsmall{
         letter-spacing: 20px;
     }
 }
 
 .letter-sp-lg{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
     @include xxsmall{
         letter-spacing: 20px;
     }
@@ -80,7 +83,7 @@ padding-top: 72px;
 }
 
 .letter-title{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
     @include xxsmall{
         letter-spacing: 24px;
     }
@@ -90,7 +93,7 @@ padding-top: 72px;
 }
 
 .letter-subtitle{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
     @include xxsmall{
         letter-spacing: 40px;
     }
@@ -100,7 +103,7 @@ padding-top: 72px;
 }
 
 .letter-third-title{
-    letter-spacing: 1.6px;
+    letter-spacing: normal;
     @include xxsmall{
         letter-spacing: 24px;
     }
@@ -110,7 +113,7 @@ padding-top: 72px;
 }
 
 .letter-card-title{
-    letter-spacing: 320px;
+    letter-spacing: normal;
     @include xlarge{
         letter-spacing: 1000px;
     }
@@ -136,6 +139,10 @@ padding-top: 72px;
 
 .bg-radio-gradient-reverse{
     background: radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+}
+
+.bg-radio-gradient-sm{
+    background: radial-gradient(105.81% 105.81% at 50% 50%, #28085C 0%, #000 100%);
 }
 
 

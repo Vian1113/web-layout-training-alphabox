@@ -4,6 +4,12 @@
     }
 }
 
+@mixin xlarge-mid{
+    @media(min-width:1600px) {
+        @content;
+    }
+}
+
 
 @mixin xlarge{
     @media(min-width:1400px) {

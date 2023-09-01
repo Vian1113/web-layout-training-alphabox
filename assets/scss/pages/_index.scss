@@ -1,13 +1,38 @@
 .alphaboxCircle {
-  width: 196px;
-  height: 196px;
+  width: 100px;
+  height: 100px;
   animation-name: rotate;
   animation-duration: 4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 
+  @include xsmall {
+    width: 196px;
+    height: 196px;
+  }
+
 }
+
+.circleWrap{
+  width: 80px;
+    height: 80px;
+    @include xxsmall{
+      width: 132px;
+      height: 132px;
+    }
+
+  .alphaboxCircle-sm{
+    width: 80px;
+    height: 80px;
+    @include xxsmall{
+      width: 132px;
+      height: 132px;
+    }
+  }
+}
+
+
 
 @keyframes rotate {
   0% {
@@ -21,7 +46,8 @@
 
 .banner {
   background-image: url(../images/line-bg.png), linear-gradient(180deg, #7000FF 0%, #11002D 100%);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
   @include midlarge {
     height: calc(1137px - 176px)
   }
@@ -77,109 +103,169 @@
     height: 1080px;
   }
 
-  .nextArrow{
+  .nextArrow {
 
-    
-    @include xlarge{
-      
-      right:-80px;
-      zoom:0.5;
+
+    @include xlarge {
+
+      right: -80px;
+      zoom: 0.5;
     }
-    @include xxlarge{
-      right:-232px;
-      zoom:1
+
+    @include xxlarge {
+      right: -232px;
+      zoom: 1
     }
-    
+
   }
 
-  .prevArrow{
-    @include xlarge{
-      
-      left:-80px;
-      zoom:0.5;
+  .prevArrow {
+    @include xlarge {
+
+      left: -80px;
+      zoom: 0.5;
     }
-    @include xxlarge{
-      left:-232px;
-      zoom:1;
+
+    @include xxlarge {
+      left: -232px;
+      zoom: 1;
     }
   }
 
-  .textArea{
-    left:16px;
-    bottom:16px ;
-    @include large{
-      left:0px;
-      bottom:0px;
-      right:80px;
-      top:50%;
-      transform:translateY(-50%);
+  .textArea {
+    left: 16px;
+    bottom: 16px;
+
+    @include large {
+      left: 0px;
+      bottom: 0px;
+      right: 80px;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 }
 
-.introBanner{
-  height:351px;
-  @include midlarge{
+.introBanner {
+  height: 351px;
+
+  @include midlarge {
     height: 560px;
   }
 }
 
-.news{
-  .newsBox{
-    border-right:0!important;
-    @include large{
-      border-right:1px solid $white !important;
+.intro {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    //position: initial;
+    margin-top: 0;
+    width: auto;
+    height: auto;
+
+    @include xlarge {
+      width: 100px;
+
+    }
+
+    @include xlarge-mid {
+      width: 100px;
+    }
+
+    @include xxlarge {
+      width: 180px;
+    }
+
+    &::after {
+      content: '';
+    }
+  }
+
+  .swiper-button-next {
+
+    @include xlarge {
+      right: -30px;
+    }
+
+    @include xlarge-mid {
+      right: -100px;
+    }
+
+    @include xxlarge {
+      right: -232px;
+    }
+  }
+
+  .swiper-button-prev {
+    @include xlarge {
+      left: -30px;
+    }
+
+    @include xlarge-mid {
+      left: -100px;
+    }
+
+    @include xxlarge {
+      left: -232px;
     }
   }
 
 }
 
-.comment{
+.news {
+  .newsBox {
+    border-right: 0 !important;
+
+    @include large {
+      border-right: 1px solid $white !important;
+    }
+  }
+
+}
+
+.comment {
   background-image: url(../images/comment_bg_sm.png), radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
   background-repeat: no-repeat;
   background-position: bottom;
-  @include large{
+
+  @include large {
     background-image: url(../images/comment_bg_lg.png), radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
   }
 
 }
 
-.commentSwiper{
 
-  .userslide{
-    height: 351px;
-    @include large{
-      height: 416px;
-    }
-  }
-
-}
-
-.commentScroll{
+.commentScroll {
   margin-bottom: 124px;
+
   .swiper-scrollbar {
     //height: 4px;
     background: rgba(255, 255, 255, 0.2);
   }
+
   .swiper-scrollbar-drag {
     //height: 4px;
     background: #ffffff !important;
   }
 }
 
-.contact{
-  .decoCircle{
+.contact {
+  .decoCircle {
     font-size: 8px;
-    @include large{
+
+    @include large {
       font-size: 12px;
     }
 
   }
-  .decoLine-sm{
+
+  .decoLine-sm {
     width: 124px;
     height: 8px;
     border-radius: 8px;
-    @include large{
+
+    @include large {
       height: 12px;
     }
   }
